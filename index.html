@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>js 15</title>
+  </head>
+  <body>
+    <main>
+      <section id="hero" class="hero">
+        <div class="container">
+          <div class="hero__box">
+            <h1 class="hero__title">Regstration</h1>
+            <form class="hero__form">
+              <div class="hero__form__box">
+                <div class="hero__form__left">
+                  <div class="hero__form__name df">
+                    <label for="hero__form__name">Full name *</label>
+                    <input
+                      required
+                      type="text"
+                      class="hero__name__input"
+                      id="hero__form__name"
+                      placeholder="Enter your name"
+                    />
+                  </div>
+
+                  <div class="hero__form__email df">
+                    <label for="hero__form__email">Your email *</label>
+                    <input
+                      type="email"
+                      class="hero__form__email"
+                      id="email"
+                      placeholder="Enter your email"
+                    />
+                  </div>
+
+                  <div class="hero__form__passwork df">
+                    <label for="hero__form__password">Your password *</label>
+                    <input
+                      type="password"
+                      class="hero__form__password"
+                      id="password"
+                      placeholder="Enter your password"
+                    />
+                  </div>
+                </div>
+                <div class="hero__form__right">
+                  <div class="hero__form__surname df">
+                    <label for="hero__form__surname">Full surname *</label>
+                    <input
+                      required
+                      type="text"
+                      class="hero__surname__input"
+                      id="hero__form__surname"
+                      placeholder="Enter your surname"
+                    />
+                  </div>
+
+                  <div class="hero__form__phone df">
+                    <label for="hero__form__phone">Your phone number *</label>
+                    <input
+                      required
+                      type="tel"
+                      class="hero__form__phone"
+                      id="phone"
+                      placeholder="Enter your phone number"
+                    />
+                  </div>
+
+                  <div class="hero__form__confirm-password df">
+                    <label for="hero__form__confirm-password"
+                      >Confirm your password *</label
+                    >
+                    <input
+                      required
+                      type="password"
+                      class="hero__form__confirm-password"
+                      id="password"
+                      placeholder="Confirm your password"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <button class="hero__form__register">Register</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <div class="container">
+          <div class="about__box">
+            <table class="about__tabel">
+              <tr class="about__tabel__head">
+                <th class="about__tabel__heading">ID</th>
+                <th class="about__tabel__heading">Name</th>
+                <th class="about__tabel__heading">Surname</th>
+                <th class="about__tabel__heading">Email</th>
+                <th class="about__tabel__heading">Password</th>
+              </tr>
+
+              <tbody class="about__tabel__body">
+                <tr class="about__tabel__info">
+                  <td class="about__tabel__data">1</td>
+                  <td class="about__tabel__data">Abdullokh</td>
+                  <td class="about__tabel__data">Rasulov</td>
+                  <td class="about__tabel__data">abu@gmail.com</td>
+                  <td class="about__tabel__data">12344</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="js/app.js"></script>
+  </body>
+</html>
